@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/Angelina/opt/anaconda3/bin/python",
+    "python.linting.pylintArgs":["--extension-pkg-whitelist=cv2"]
+}
