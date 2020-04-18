@@ -3,7 +3,7 @@ from PIL import Image
 import os, cv2
 
 def train_classifier(data_dir):
-    path = [os.join(data_dir, f) for f in os.listdir(data_dir)] #stores all images file name in list 
+    path = [os.path.join(data_dir, f) for f in os.listdir(data_dir)] #stores all images file name in list 
     faces = []
     ids = []
 
